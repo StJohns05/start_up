@@ -1,0 +1,62 @@
+student:
+	personal details--> name, alias(nick name), parents names/ gaurdian name, aadhar number,caste,income details, cntc details
+parent cntc details, email, address, placements
+	educational detail-->10th inter/ diploma, college names address, percentages,
+ certificates.
+	marks-->current sem marks, past sem marks, percentage, overall performance
+internal marks, labs.
+  	 
+finance--> fees-->bus fee, hostle fees, university fees,exam fee,fines, tution fees.
+ student bank details, mother bank details.
+
+
+
+
+
+
+attendance, library cards, bus pass
+activities-->(sports,music, dance), seminars, training, events(annual day), workshops,
+ industrial tours
+communication-->parent communication, student, 
+alumni
+forms, static data, logos, images, marketing,
+hr hierarchy
+academic calander
+
+
+
+
+
+
+
+courses
+inventory management
+staff management
+payments/salary--->external payments and internal payments
+invoices
+reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+adobe xd
+https://www.adobe.com/products/xd/solutions/wireframe-tool.html
+
+
+
+
+
+
+ 
