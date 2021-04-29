@@ -1,0 +1,84 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+   
+   <script>
+       function login(){
+          var umail=/^[A-Za-z0-9.!#$%&'*(){}|-~]+@[A-Za-z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+          var Email=document.up.mail.value; 
+          var upass=/^[A-Za-z]\w{7,8}$/;
+                var Password=document.up.pass.value;
+                
+                
+       }
+     </script>
+
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+ 
+				 margin-top:100px;
+				 margin-bottom:200px;
+				 margin-left:400px;
+			 	 margin-right:400px;
+				 background: url("nat.jpg");
+				  background-size: cover;
+                 background-position: center;
+
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 50%  
+        color: orange;   
+        padding: 15px;   
+        margin: 20px 30px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+    form {   
+        border: 3px solid #f1f1f1;   
+    }   
+    input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+    button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: lightblue;  
+    }   
+  </style>   
+</head>    
+ <body>    
+    <center> <h1 style="color:red"> Student Login Form </h1> </center>   
+    <form>  
+        <div class="container">   
+            <label>Registration No : </label>   
+            <input type="text" placeholder="Enter Reg No" name="username" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit" onclick="login()">Login</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+             <a href="#"> Forgot password </a>   
+			<button type="Newuser"><a href="file:///D:/web2/first.html">NewUser-SignUp</a></button>
+            
+        </div>   
+    </form>     
+</body>     
+</html>  
